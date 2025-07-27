@@ -19,6 +19,13 @@ header .container {
     max-width: 384px;
 }
 
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile h1 {
     font: var(--text-lg);
     color: var(--text-color-primary);
@@ -39,5 +46,5 @@ header .container {
     display: flex;
     align-items: center;
     gap: 8px;
-    font: var(--text);
+    font: var(--text-md);
 }
